@@ -16,6 +16,10 @@ public class DriverMain {
 		System.out.println("Converting Miles to Kilometers - Part(b)");
 		mk.MilesToKm(scanner);
 		
+		ConvertLitersToGallons lg = new ConvertLitersToGallons();
+		System.out.println("Converting Miles to Kilometers - Part(c)");
+		lg.LitersToGallons(scanner);
+		
 		scanner.close();
 	}
 
